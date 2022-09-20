@@ -27,7 +27,7 @@ setup(
     'pillow',
     'regex',
     'rotary-embedding-torch',
-    'taming-transformers-rom1504',
+    # 'taming-transformers-rom1504',
     'tokenizers',
     'torch>=1.6',
     'torchvision',
