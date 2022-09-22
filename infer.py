@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import random
 # import wandb
-from DALLEpytorch.gen_call import main
+from gen_call import main
 
 import torch
 print('torch.__version__', torch.__version__)
