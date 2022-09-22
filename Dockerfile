@@ -54,7 +54,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 RUN apt-get install git -y
 
 
-RUN pip3 install -e . --quiet
+RUN pip3 install "git+https://github.com/affanmehmood/DALLE-pytorch"
 # RUN pip3 install "git+https://github.com/affanmehmood/taming-transformers"
 
 RUN git clone https://github.com/affanmehmood/taming-transformers --quiet
